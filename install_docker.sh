@@ -4,7 +4,7 @@
 # OS requirements: Ubuntu Bionic/Xenial
 
 # remove previous installs
-sudo apt-get remove docker docker-engine docker.io
+$ sudo apt-get remove docker docker-engine docker.io containerd runc
 
 sudo apt-get -y update
 
@@ -30,7 +30,7 @@ sudo apt-get -y update
 sudo apt-get -y install docker-ce docker-ce-cli containerd.io
 
 # install docker compose
-sudo curl -L "https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo curl -L "https://github.com/docker/compose/releases/download/1.25.5/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 
 # make binary executable
 sudo chmod +x /usr/local/bin/docker-compose
