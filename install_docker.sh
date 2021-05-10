@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Installation script for docker engine, containerd and docker-compose
 # OS requirements: Ubuntu Bionic/Xenial
